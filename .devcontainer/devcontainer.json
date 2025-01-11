@@ -1,0 +1,11 @@
+{
+  "name": "mi-contenedor",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {
+      "theme" : "agnoster",
+      "desiredLocale" : "es_ES.UTF-8 UTF-8"
+    },
+    "ghcr.io/nikiforovall/devcontainer-features/dotnet-csharpier:1": {}
+  }
+}
